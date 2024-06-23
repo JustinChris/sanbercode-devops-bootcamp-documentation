@@ -1,0 +1,14 @@
+database:
+  host: localhost
+  port: 3306
+  username: dummy_user
+  password: dummy_password
+  database_name: dummy_db
+
+logging:
+  level: info
+  file_path: /var/log/dummy_app.log
+
+api:
+  base_url: https://api.example.com
+  timeout: 5000
